@@ -3,7 +3,7 @@
 /**
  * main - display short message
  *
- * Return: return 0 if successfull 
+ * Return: return 0 if successfull
  */
 
 int main(void)
