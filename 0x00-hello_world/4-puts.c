@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - display short message and return 0 
+ * main - display short message
+ *
+ * Return: return 0 if successfull 
  */
 
 int main(void)
