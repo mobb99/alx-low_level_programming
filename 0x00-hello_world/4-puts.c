@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-/*
- * main :entry point 
- * return 0 if successfull
- * */
+/**
+ * main - display short message and return 0 
+ */
 
 int main(void)
 {
