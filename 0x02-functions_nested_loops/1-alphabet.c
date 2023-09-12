@@ -12,7 +12,7 @@ void print_alphabet(void)
 
 	for (c = 0; c < 98; c++)
 	{
-		_putchar(c);
+		_putchar((char *)c);
 	}
-	_putchar(10);
+	_putchar((char *)10);
 }
