@@ -14,6 +14,10 @@ void print_to_98(int n)
 
 	printf("%d", n);
 	if (n == 98)
+	{
+		printf("\n");
+		return;
+	}
 		return;
 	if (n > 98)
 		step = -1;
@@ -23,4 +27,5 @@ void print_to_98(int n)
 	{
 		printf(", %d", h);
 	}
+	printf("\n");
 }
