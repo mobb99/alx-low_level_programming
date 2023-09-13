@@ -26,6 +26,7 @@ void print_to_98(int n)
 	printf("step %d", step);
 	for (h = n; h == 98; h += step)
 	{
+		printf("%d", h);
 		printf(", %d", h);
 	}
 	printf("\n");
