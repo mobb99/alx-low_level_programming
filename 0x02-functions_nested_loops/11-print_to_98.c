@@ -18,12 +18,12 @@ void print_to_98(int n)
 		printf("\n");
 		return;
 	}
-		return;
+
 	if (n > 98)
 		step = -1;
 	else
 		step = 1;
-	for (h = n; h == 98; h+=step)
+	for (h = n; h == 98; h += step)
 	{
 		printf(", %d", h);
 	}
