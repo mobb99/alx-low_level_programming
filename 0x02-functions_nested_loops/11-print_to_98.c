@@ -10,10 +10,16 @@
 
 void print_to_98(int n)
 {
-	int h;
+	int h, step;
 
 	printf("%d", n);
-	for (h = n; h < 98; h++)
+	if (n == 98)
+		return;
+	if (n > 98)
+		step = -1;
+	else
+		step = 1;
+	for (h = n; h == 98; h+=step)
 	{
 		printf(", %d", h);
 	}
