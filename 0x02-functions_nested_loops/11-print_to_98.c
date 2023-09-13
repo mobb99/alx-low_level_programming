@@ -24,7 +24,7 @@ void print_to_98(int n)
 		step = -1;
 	}
 
-	for (h = n; h != 98; h += step)
+	for (h = n + step; h != 98; h += step)
 	{
 		printf(", %d", h);
 	}
