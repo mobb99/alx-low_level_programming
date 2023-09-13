@@ -18,7 +18,7 @@ void print_to_98(int n)
 		printf("\n");
 		return;
 	}
-
+	step = 1;
 	if (n > 98)
 		step = -1;
 	else
