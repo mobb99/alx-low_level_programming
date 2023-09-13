@@ -23,7 +23,7 @@ void print_to_98(int n)
 	{
 		step = -1;
 	}
-
+	printf("step %d", step);
 	for (h = n; h == 98; h += step)
 	{
 		printf(", %d", h);
