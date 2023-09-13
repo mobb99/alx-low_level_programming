@@ -22,7 +22,7 @@ void times_table(void)
 		}
 		_putchar(',');
 		_putchar(' ');
-			
+
 		if (f * s < 10)
 		{
 			_putchar(' ');
