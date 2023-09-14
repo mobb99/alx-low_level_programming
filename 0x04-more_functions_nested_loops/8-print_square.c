@@ -23,6 +23,8 @@ void print_square(int size)
 	_putchar('\n');
 	l--;
 	}
+	if (size > 0)
+		return (void);
 	_putchar('\n');
 
 }
