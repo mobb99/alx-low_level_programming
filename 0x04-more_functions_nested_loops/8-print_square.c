@@ -1,18 +1,28 @@
 #include "main.h"
 
 /**
- * print_line - print a libe of n _
- * @n: the number of _
+ * print_square - print a square of sizexsize
+ * @size: length
  *
  * Return: void
  */
 
-void print_line(int n)
+void print_square(int size)
 {
-	while (n > 0)
+	int c = size;
+	int l = size;
+
+	while (l > 0)
 	{
-		_putchar('_');
-		n--;
+	c = size;
+	while (c > 0)
+	{
+		_putchar('#');
+		c--;
 	}
 	_putchar('\n');
+	l--;
+	}
+	_putchar('\n');
+
 }
