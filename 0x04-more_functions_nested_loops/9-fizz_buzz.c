@@ -4,13 +4,12 @@
 /**
  * main - the fizz buzz test
  *
- * Return: void
+ * Return: 0 success
  */
 
 int main(void)
 {
 	int c;
-	int f == 0;
 
 	printf("1");
 	for (c = 2; c <= 100; c++)
