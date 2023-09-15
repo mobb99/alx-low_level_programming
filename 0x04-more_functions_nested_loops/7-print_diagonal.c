@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - print diagonal of \
- * @n: the number of \
+ * print_diagonal - print diagonal of slashes
+ * @n: the number lines
  *
  * Return: void
  */
@@ -12,14 +12,14 @@ void print_diagonal(int n)
 	int s = n;
 	int i = 0;
 
-	while (n > 0)
+	while (s > 0)
 	{
 		i = 0;
-		while (i++ < s - n)
+		while (i++ < n - s)
 			_putchar(' ');
 		_putchar('\\');
 		_putchar('\n');
-		n--;
+		s--;
 	}
 	if (n < 1)
 		_putchar('\n');
