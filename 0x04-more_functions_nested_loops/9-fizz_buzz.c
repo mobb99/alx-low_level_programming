@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void print_numbers(void)
+int main(void)
 {
 	int c;
 	int f == 0;
@@ -28,4 +28,5 @@ void print_numbers(void)
 
 	}
 	_putchar('\n');
+	return (0);
 }
