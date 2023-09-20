@@ -1,6 +1,26 @@
 #include "main.h"
 #include <stdio.h>
-#include <math.h>
+
+/**
+ * pow - calculate x**y
+ * @x : the base
+ * @y : the exponent
+ *
+ * Return: the result
+ */
+
+int pow(int x, int y)
+{
+	int res = 1;
+
+	if (y == 0)
+		return (1);
+	while (y--)
+	{
+	res *= x;
+	}
+	return (res);
+}
 
 /**
  * _atoi - convert string to integer
