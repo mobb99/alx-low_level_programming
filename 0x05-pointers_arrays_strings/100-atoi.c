@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <math.h>
 
 /**
  * pow - calculate x**y
@@ -9,7 +10,7 @@
  * Return: the result
  */
 
-int pow(int x, int y)
+int mypow(int x, int y)
 {
 	int res = 1;
 
@@ -60,7 +61,7 @@ int _atoi(char *s)
 	{
 		while (s[lastdigit] >= 48 && s[lastdigit] < 58)
 		{
-		res += (s[lastdigit] - '0') * pow(10, base);
+		res += (s[lastdigit] - '0') * mypow(10, base);
 		lastdigit--;
 		base++;
 		if (lastdigit < 0)
