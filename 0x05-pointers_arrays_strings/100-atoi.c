@@ -3,7 +3,7 @@
 #include <math.h>
 
 /**
- * pow - calculate x**y
+ * mypow - calculate x**y
  * @x : the base
  * @y : the exponent
  *
@@ -56,7 +56,9 @@ int _atoi(char *s)
 		c++;
 	}
 	if (lastdigit == -1)
+	{
 		return (0);
+	}
 	else
 	{
 		while (s[lastdigit] >= 48 && s[lastdigit] < 58)
