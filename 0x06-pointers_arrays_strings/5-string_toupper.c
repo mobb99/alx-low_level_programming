@@ -14,7 +14,7 @@ char *string_toupper(char *str)
 
 	while (str[c] != '\0')
 	{
-		if (str[c] <= 'z' && str[] >= 'a')
+		if (str[c] <= 'z' && str[c] >= 'a')
 			str[c] = str[c] - 'a' + 'A';
 		c++;
 	}
