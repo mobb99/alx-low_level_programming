@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * _strncat - copy atmost n bytes from  src to dest overwriting it
+ * _strncpy - copy atmost n bytes from  src to dest overwriting it
  * @src : the source string
  * @dest : the destination
  * @n : number of bytes to copy
  *
- * Return: rhe pointer to dest
+ * Return: the pointer to dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
