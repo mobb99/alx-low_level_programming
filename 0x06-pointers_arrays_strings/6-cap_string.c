@@ -10,7 +10,7 @@
 
 int is_sep(char l)
 {
-char seps[] = "	\n,;	.!?\"(){}";
+char seps[] = "\n, ;	.!?\"(){}";
 int i = 0;
 
 	for (; seps[i] != '\0'; i++)
@@ -31,7 +31,7 @@ int i = 0;
 char *cap_string(char *str)
 {
 	int c = 0;
-	int wasep = 0;
+	int wasep = 1;
 
 	while (str[c] != '\0')
 	{
