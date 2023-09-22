@@ -20,7 +20,10 @@ char *rot13(char *str)
 	for (i = 0; i < 52; i++)
 	{
 		if (str[c] == set1[i])
-			str[c] = set2[i];
+		{
+		str[c] = set2[i];
+		break;
+		}
 	}
 	c++;
 	}
