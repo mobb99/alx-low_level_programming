@@ -37,10 +37,7 @@ char *cap_string(char *str)
 	{
 		if (str[c] <= 'z' && str[c] >= 'a' && wasep == 1)
 			str[c] = str[c] - 'a' + 'A';
-		if (is_sep(str[c]))
-			wasep = 1;
-		else
-			wasep = 0;
+		wasep = is_sep(str[c]);
 		c++;
 	}
 	return (str);
