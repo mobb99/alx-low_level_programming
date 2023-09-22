@@ -31,7 +31,7 @@ int i = 0;
 char *cap_string(char *str)
 {
 	int c = 0;
-	int wasep = 1;
+	int wasep = 0;
 
 	while (str[c] != '\0')
 	{
