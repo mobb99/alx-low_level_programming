@@ -39,6 +39,8 @@ char *cap_string(char *str)
 			str[c] = str[c] - 'a' + 'A';
 		if (is_sep(str[c]))
 			wasep = 1;
+		else
+			wasep = 0;
 		c++;
 	}
 	return (str);
