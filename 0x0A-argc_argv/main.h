@@ -4,6 +4,7 @@
 #include<unistd.h>
 #include<stdio.h>
 #include<stdlib.h>
+#include<ctype.h>
 
 void _putchar(int c);
 #endif
