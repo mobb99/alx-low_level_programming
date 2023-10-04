@@ -27,6 +27,7 @@ char *str_concat(char *s1, char *s2)
 	while (*s1 != '\0')
 	{
 		ptr[c] = *s1;
+		s1++;
 		c++;
 	}
 	}
@@ -35,6 +36,7 @@ char *str_concat(char *s1, char *s2)
 	while (*s2 != '\0')
 	{
 		ptr[c] = *s2;
+		s2++;
 		c++;
 	}
 	}
