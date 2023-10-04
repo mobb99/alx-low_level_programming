@@ -2,6 +2,7 @@
 #define MAIN_H
 #include<string.h>
 #include<unistd.h>
+#include<stdlib.h>
 
 void _putchar(int c);
 char *create_array(unsigned int size, char c);
