@@ -33,6 +33,7 @@ char *argstostr(int ac, char **av)
 	while (*s != '\0')
 	{
 		ptr[i] = *s;
+		s++;
 		i++;
 	}
 	ptr[i++] = '\n';
